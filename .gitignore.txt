@@ -1,0 +1,36 @@
+# --- Unity big folders we NEVER commit ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Addressables / StreamingAssets generated
+Assets/AddressableAssetsData/*/bin/
+Assets/StreamingAssets/aa/
+
+# --- IDE / project files we don't need in Git ---
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.booproj
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# --- Editor caches ---
+.vs/
+.idea/
+.vscode/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Optional: JetBrains Rider plugin cache ---
+Assets/Plugins/Editor/JetBrains*
